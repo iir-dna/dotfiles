@@ -1,0 +1,23 @@
+# It is indeed the best theme over here
+theme = "catppuccin_latte"
+
+[editor]
+mouse = true # I don't want to get rid of it
+line-number = "relative" # It is just easier to navigate, with no need to press HJKL a lot
+# These two just make life super easy (liked that in VIM)
+cursorline = true
+cursorcolumn = true
+idle-timeout = 200 # Triggers autocomplete faster than default (400)
+completion-replace = true # If I know the beginning of the method, I want it to be replaced, not added
+true-color = true # Since I use Alacritty, I can force true color
+color-modes = true # Different modes - different colors. Should be better
+insert-final-newline = true # Just use it
+
+[editor.whitespace]
+render = "all" # It si good to see unnecessary stuff
+
+# Responsible for rendering those vertical guides for nested indentation
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
