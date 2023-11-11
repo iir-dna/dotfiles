@@ -5,6 +5,7 @@
 
 # append completions to fpath
 fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
+fpath=($HOME/.config/zsh/completions $fpath)
 
 # set autocomplete and colors plugins
 autoload -Uz compinit && compinit
@@ -19,8 +20,9 @@ bindkey ^S history-incremental-search-forward
 
 # --> Set of exports (all but paths, which are stored in .zshenv)
 ## -- Prompts
-export PROMPT="└─> "
-export RPROMPT="%B[%F{red}%?%F{reset}]%b"
+# Disabled, because I use starship instead
+# export PROMPT="└─> "
+# export RPROMPT="%B[%F{red}%?%F{reset}]%b"
 
 ## -- Editors
 export EDITOR=hx
@@ -37,3 +39,7 @@ alias gpl="git pull"
 alias gph="git push"
 alias gco="git checkout"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias edit-alacritty-config="hx $HOME/.config/alacritty/alacritty.toml"
+
+# Set starship on the last line
+eval "$(starship init zsh)"
