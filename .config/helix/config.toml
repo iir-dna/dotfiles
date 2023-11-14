@@ -1,5 +1,9 @@
-# It is indeed the best theme over here
-theme = "catppuccin_latte"
+# Good themes are:
+# 1. Acme
+# 2. Catppuccin
+# 3. Emacs
+# 4. Tokyo Night (current)
+theme = "tokyonight"
 
 [editor]
 mouse = true # I don't want to get rid of it
@@ -14,7 +18,7 @@ color-modes = true # Different modes - different colors. Should be better
 insert-final-newline = true # Just use it
 
 [editor.whitespace]
-render = "all" # It si good to see unnecessary stuff
+render = "none" # It is NOT SO good to see unnecessary stuff
 
 # Responsible for rendering those vertical guides for nested indentation
 [editor.indent-guides]

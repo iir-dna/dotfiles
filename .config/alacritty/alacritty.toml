@@ -1,4 +1,4 @@
-import = ["~/World/catppuccin/alacritty/catppuccin-latte.toml"]
+import = ["$HOME/World/alacritty-theme/themes/tokyo-night.toml"]
 [env]
 # Set terminal to alacritty to get most of it
 term="alacritty"
@@ -17,7 +17,7 @@ term="alacritty"
   history = 100000
 
 [font]
-  size = 14.0
+  size = 12.0
 
 [font.normal]
   family = "DejaVu Sans Mono"

@@ -30,6 +30,7 @@ export VISUAL=hx
 
 # --> Set of aliases
 alias reload-zsh="source $HOME/.zshrc"
+alias cat="bat --theme TwoDark"
 alias world="cd $HOME/World"
 alias ll="ls -alG"
 alias ..="cd ../"
