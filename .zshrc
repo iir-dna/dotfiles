@@ -27,8 +27,8 @@ export PROMPT="└─> "
 export RPROMPT="%B[%F{red}%?%F{reset}]%b"
 
 ## -- Editors
-export EDITOR=hx
-export VISUAL=hx
+export EDITOR=vim
+export VISUAL=vim
 
 # --> Set of aliases
 alias reload-zsh="source $HOME/.zshrc"
