@@ -3,7 +3,7 @@
 # 2. Catppuccin
 # 3. Emacs
 # 4. Tokyo Night (current)
-theme = "tokyonight"
+theme = "emacs"
 
 [editor]
 mouse = true # I don't want to get rid of it
@@ -13,7 +13,7 @@ cursorline = true
 cursorcolumn = true
 idle-timeout = 200 # Triggers autocomplete faster than default (400)
 completion-replace = true # If I know the beginning of the method, I want it to be replaced, not added
-true-color = true # Since I use Alacritty, I can force true color
+true-color = true# Since I use Alacritty, I can force true color
 color-modes = true # Different modes - different colors. Should be better
 insert-final-newline = true # Just use it
 
