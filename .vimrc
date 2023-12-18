@@ -1,0 +1,17 @@
+set number
+colorscheme morning
+set showmatch
+set errorbells
+set visualbell
+set hlsearch
+set smartcase
+set ignorecase
+set incsearch
+set autoindent
+set expandtab
+set shiftwidth=2
+set smartindent
+set smarttab
+set softtabstop=2
+set cursorline
+set ruler
